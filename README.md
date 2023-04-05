@@ -117,12 +117,17 @@
 
 ### 📂 디자인 무드보드
 ![온로그 무드보드_20221015](https://user-images.githubusercontent.com/115769126/195903708-567113cc-5513-4f0f-99dc-cff5b5d49f94.png)
+>나날 서비스는 유저의 '매일'을 함께하는 일기앱으로, 유저들이 
+스스로의 일상을 기록하고 회고함으로써 **더 나은 내일**을 맞게 되길 바랍니다. 
+>이런 마음을 담아, **새로이 떠오르는 해**가 연상되는 키 컬러를 선정하게 되었으며, 
+전체적인 서비스 무드를 위와 같이 정립할 수 있었습니다. 
 
+***디자인 무드보드 이미지를 삽입하고, 그에 대한 부연 설명을 작성합니다.***
 
 
 ### 💻 기술 스택
-**Front-End :** <img src="https://img.shields.io/badge/React Native-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=black"/> <img src="https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/> <p>
-**Back-End :** <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/> <img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=flat-square&logo=IntelliJ IDEA&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white"/> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=Swagger&logoColor=white"/> 
+**Front-End :** <img src="https://img.shields.io/badge/React Native-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=Axios&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=black"/> <img src="https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/> <p>
+**Back-End :** <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/> <img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=flat-square&logo=IntelliJ IDEA&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white"/> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=Swagger&logoColor=white"/> <img src="https://img.shields.io/badge/spring-6DB33F?style=flat-squre&logo=spring&logoColor=white">
 
 #### 기술 스택 선정 이유
 * Use Case 를 고려했을 때, 우리 서비스를 이용하는 고객은 실제 사용자(User)입니다. 
@@ -161,7 +166,33 @@ Spring은 최근의 트렌드, 혹은 더 나은 프로그래밍 방법을 찾�
 5️⃣ **직관적이고 유연한 프레임워크**                    
 스프링은 직관적인 API를 제공하며, 만들고자하는 애플리케이션의 요구사항과 목적에 따라 유연하게 적용시킬수 있습니다.
 
+## :pushpin: 네이밍룰
+- 파일 : PascalCase + CamelCase (ex.DeclarationPrecessor.kt)
+- 클래스명 : PascalCase + CamelCase (ex.SendMessage)
+- 함수/변수명 : CamelCase (ex.userCount)
+- 상수명 : UpperCase + SnakeCase (ex.MAX_COUNT)
+## 📑 커밋 컨벤션
+#### Commit Message : [Type][Subject][Body][Footer]
+### 📌 Type
+- [Feat] : 새로운 기능 추가
+- [Fix] : 버그 수정
+- [Docs] : 문서 수정
+- [Style] : 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우
+- [Refactor] : 코드 리펙토링
+- [Test] : 테스트 코드, 리펙토링 테스트 코드 추가
+- [Chore] : 빌드 업무 수정, 패키지 매니저 수정
+### 📌 Subject
+- type과 함께 작성
+- 50자 이내, 첫 글자 대문자, 명령문 사용, 개조식 구문
+### 📌 Body
+- 72자 이내, '어떻게'보다 '무엇을','왜' 변경했는지에 대해 작성
+- 선택사항
+### 📌 Footer
+- 이슈를 추적하기 위한 ID를 추가할 시 사용
+- 해결/관련/참고
+- 선택사항
+
   
-### 🔍  CI/CD
+### 🔍 소프트웨어 아키텍쳐
 ![KakaoTalk_20221014_222429596](https://user-images.githubusercontent.com/115769126/195902499-86655519-bf4b-4741-b533-e74c242a8b93.png)
 
